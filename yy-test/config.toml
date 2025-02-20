@@ -1,0 +1,71 @@
+#私钥
+KEYPAIR=""
+
+#Bot设置
+#线程数量
+THREAD_COUNT=32
+#节点地址
+RPC_URL="http://frankfurt.o7node.com:7799"
+#最小获取利润 lamports为单位
+MIN_GAIN_LAMPORTS=5000
+#进入金额（lamports为单位）
+AMOUNT_IN_FIXED=300000000
+# 范围 min-max 0.01-1
+AMOUNT_IN_MIN=10000000
+AMOUNT_IN_MAX=1000000000
+#要套的币
+WSOL="So11111111111111111111111111111111111111112"
+USDC="EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+#中间MINT的地址
+MIDDLE_MINTS="/home/combined_mints.json"
+
+#JUPITER:
+JUPITER_URL="0.0.0.0"
+#是否直接路由
+ONLYDIRECTROUTES=true
+
+#JITO设置
+#JITO固定小费
+JITO_STATIC_TIP=12000
+#JITO固定小费比例
+JITO_STATIC_TIP_PERCENT=0.9
+#JITO小费账户
+JITO_TIP_ACCOUNTS=[
+    "96gYZGLnJYVFmbjzopPSU6QiEV5fGqZNyN9nmNhvrZU5",
+    "HFqU5x63VTqvQss8hp11i4wVV8bD44PvwucfZ2bU7gRe",
+    "Cw8CFyM9FkoMi7K7Crf6HNQqf4uEMzpKw6QNghXLvLkY",
+    "ADaUMid9yfUytqMBgopwjb2DTLSokTSzL1zt6iGPaS49",
+    "DfXygSm4jCyNCybVYYK6DwvWqjKee8pbDmJGcLWNDXjh",
+    "ADuUkR4vqLUMWXxW9gh6D6L8pMSawimctcNZ5pGwDcEt",
+    "DttWaMuVvTiduZRnguLF7jNxTgiMBZ1hyAumKUiL2KRL",
+    "3AVi9Tg9Uo68tJfuvoKvqKNWKkC5wPdSSdeBnizKZ6jT",
+]
+#JITO BLOCKENGINE的地址
+JITO_URLS = [
+    #"https://tokyo.mainnet.block-engine.jito.wtf/api/v1/bundles"
+    #"https://amsterdam.mainnet.block-engine.jito.wtf/api/v1/bundles"
+    "https://frankfurt.mainnet.block-engine.jito.wtf/api/v1/bundles"
+    #"https://ny.mainnet.block-engine.jito.wtf/api/v1/bundles",
+    #"https://slc.mainnet.block-engine.jito.wtf/api/v1/bundles",
+]
+
+#服务器IP列表
+SERVER_IPS = [
+    "45.157.235.34",
+    "45.157.235.35",
+    "45.157.235.36",
+    "45.157.235.37",
+    "45.157.235.38",
+    "45.157.235.39",
+    "45.157.235.40",
+    "45.157.235.41",
+    "45.157.235.42",
+    "45.157.235.43",
+    "45.157.235.44",
+    "45.157.235.45"
+]
+
+#代理账户转小费用
+PROXY_ACCOUNTS = [
+
+]
